@@ -1,6 +1,6 @@
 # singularity-bedtools
 [![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/bedtools)
-![Release](https://img.shields.io/badge/release-v2.29.2-red.svg)
+![Release](https://img.shields.io/badge/release-v2.29.2-green.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-bedtools.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-bedtools)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/network)
