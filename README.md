@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-bedtools.svg)](https://github.com/icaoberg/singularity-bedtools/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
-![Logo](./images/logo.png)
+![Logo](images/logo.png)
 
 ## Create image locally
 To create the Singularity container, run the command
