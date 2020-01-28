@@ -1,3 +1,6 @@
 [submodule ".travis"]
 	path = .travis
 	url = git@github.com:icaoberg/.travis.git
+[submodule "examples/2253e0ef34b3fd7dd3f4703d8037e83f"]
+	path = examples/2253e0ef34b3fd7dd3f4703d8037e83f
+	url = git@gist.github.com:2253e0ef34b3fd7dd3f4703d8037e83f.git
