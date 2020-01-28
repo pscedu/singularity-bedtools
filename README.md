@@ -11,16 +11,33 @@
 
 Collectively, the [bedtools](https://bedtools.readthedocs.io/en/latest/) utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations on the UNIX command line.
 
-## Create image locally
-To create the Singularity container, run the command
+## Pre-requisites
+
+* [Singularity v3.5.+](https://sylabs.io/docs/).
+
+## Building the image using the recipe
+
+### To build the image locally
+Run the script `build.sh` to build image locally.
 
 ```
 bash ./build.sh
 ```
 
-## Example
+### To build the image remotely remotely
+Run the script `rbuild.sh` to build image remotely.
+
 ```
-➜  singularity run --app bedtools singularity-bedtools.simg
+bash ./rbuild.sh
+```
+
+You will need to edit the script above to match your account on [SyLabs.io](https://sylabs.io/).
+
+### Pulling from the repository
+If you have the client installed and cannot build the image locally nor remotely, simply run
+
+```
+singularity pull library://icaoberg/default/bedtools
 ```
 
 ## Disclaimer
