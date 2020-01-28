@@ -54,3 +54,4 @@ script:
   - bash ./build.sh
   - du -h singularity-bedtools.simg
   - singularity run --app bedtools singularity-bedtools.simg -help
+  - cd examples/2253e0ef34b3fd7dd3f4703d8037e83f && bash ./example01.sh
