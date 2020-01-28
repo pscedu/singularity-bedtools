@@ -9,9 +9,7 @@
 
 ![Logo](images/logo.png)
 
-Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations on the UNIX command line.
-
-bedtools is developed in the [Quinlan laboratory](http://quinlanlab.org/) at the [University of Utah](https://www.utah.edu/) and benefits from fantastic contributions made by scientists worldwide.
+Collectively, the [bedtools](https://bedtools.readthedocs.io/en/latest/) utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations on the UNIX command line.
 
 ## Create image locally
 To create the Singularity container, run the command
@@ -27,7 +25,7 @@ bash ./build.sh
 
 ## Disclaimer
 
-I am nothing but a humble programmer creating the container for this wonderful app.
+I am nothing but a humble programmer creating the container for this wonderful app. [bedtools](https://bedtools.readthedocs.io/en/latest/) is developed in the [Quinlan laboratory](http://quinlanlab.org/) at the [University of Utah](https://www.utah.edu/) and benefits from fantastic contributions made by scientists worldwide.
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
