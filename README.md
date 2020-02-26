@@ -37,7 +37,7 @@ You will need to edit the script above to match your account on [SyLabs.io](http
 If you have the client installed and cannot build the image locally nor remotely, simply run
 
 ```
-singularity pull library://icaoberg/default/bedtools
+singularity pull --arch amd64 library://icaoberg/default/bedtools:v2.29.2
 ```
 
 ## Disclaimer
