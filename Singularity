@@ -1,7 +1,5 @@
 Bootstrap: docker
-From: debian:latest
-
-IncludeCmd: yes
+From: debian:buster
 
 %labels
     AUTHOR icaoberg
