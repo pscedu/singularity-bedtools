@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=singularity-bedtools.simg
+IMAGE=singularity-bedtools-2.29.2.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
