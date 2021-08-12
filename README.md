@@ -4,13 +4,20 @@
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-bedtools)
 ![License](https://img.shields.io/github/license/pscedu/singularity-bedtools)
 
-
+# singularity-bedtools
 ![Logo](images/logo.png)
 
+## Installing the container on Bridges 2
+Copy the
 
+* `SIF` file
+* and the `betools` script
+
+to `/opt/packages/bedtools/2.29.2`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/bedtools` as `2.29.2.lua`.
 
 ## Building the image using the recipe
-
 ### To build the image locally
 Run the script `build.sh` to build image locally.
 
@@ -18,27 +25,23 @@ Run the script `build.sh` to build image locally.
 bash ./build.sh
 ```
 
-### To build the image remotely remotely
+### To build the image remotely
 Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
 ```
 
-You will need to edit the script above to match your account on [SyLabs.io](https://sylabs.io/).
-
-### Pulling from the repository
-If you have the client installed and cannot build the image locally nor remotely, simply run
+## To run tests
+To run the available tests, run the command
 
 ```
-singularity pull --arch amd64 library://icaoberg/default/bedtools:v2.29.2
+bash ./test.sh
 ```
-
-## Disclaimer
-
-I am nothing but a humble programmer creating the container for this wonderful app. [bedtools](https://bedtools.readthedocs.io/en/latest/) is developed in the [Quinlan laboratory](http://quinlanlab.org/) at the [University of Utah](https://www.utah.edu/) and benefits from fantastic contributions made by scientists worldwide.
 
 ---
-[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-Copyleft © 2019-2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
+Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/tigers/) at [Carnegie Mellon University](http://www.cmu.edu).
+
