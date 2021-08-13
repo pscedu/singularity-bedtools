@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-bamtools-2.5.1.sif
+IMAGE=singularity-bedtools-2.29.2.sif
 DEFINITION=Singularity
 
 singularity build --remote $IMAGE $DEFINITION
