@@ -11,7 +11,7 @@
 Copy the
 
 * `SIF` file
-* and the `betools` script
+* and the `bedtools` script
 
 to `/opt/packages/bedtools/2.29.2`.
 
