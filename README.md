@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-bedtools)
 
 # singularity-bedtools
-<img src="http://www.andrew.cmu.edu/user/icaoberg/post/singularity-bedtools-update/logo.png" width="20%">
+<img src="http://www.andrew.cmu.edu/user/icaoberg/post/singularity-bedtools-update/logo.png" width="10%">
 
 ## Installing the container on Bridges 2
 Copy the
