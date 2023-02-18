@@ -14,9 +14,9 @@ Copy the
 * `SIF` file
 * and the `bedtools` script
 
-to `/opt/packages/bedtools/2.29.2`.
+to `/opt/packages/bedtools/2.30.2`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/bedtools` as `2.29.2.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/bedtools` as `2.30.2.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
@@ -41,7 +41,7 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2022 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
 Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/tigers/) at [Carnegie Mellon University](http://www.cmu.edu).
